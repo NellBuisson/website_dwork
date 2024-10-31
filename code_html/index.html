@@ -5,28 +5,27 @@
         <title> Dans la vie de Cynthia Dwork </title>
         <link rel="icon" href="image/logo.ico" />
         <meta charset = "utf-8"/>
+        <link rel="stylesheet" type="text/css" href= "../page_css/texte.css" media="all" />
     </head>
 <!--Insérer l'entête de la page, avec le logo et le titre du site et le menu-->
     <body>
         <header>
-            <a href = "index.html"><img src="image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
-            <h1>Dans la vie de Cynthia Dwork</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Page d'Accueil</a></li>
-                    <li><a href="pages/biographie.html">La vie de Cynthia Dwork</a></li>
-                    <li><a href="pages/oeuvre.html">L'oeuvre de Cynthia Dwork</a></li>
-                    <li>jeux
+            <a href = "index.html"><img class="logo" src="image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
+            <h1>Dans la vie de<br/><span>Cynthia Dwork</span></h1>
+            <nav class="menu">
+                <ul class="navigation">
+                    <li class="casenav"><a href="index.html" id="colormenu">Page d'Accueil</a></li>
+                    <li class="casenav"><a href="pages/biographie.html" id="colormenu">La vie de Cynthia Dwork</a></li>
+                    <li class="casenav"><a href="pages/oeuvre.html" id="colormenu">L'oeuvre de Cynthia Dwork</a></li>
+                    <li class="casenav">Jeux 
                         <nav>
-                            <ul>
-                                <li><a href="pages/jeux/quizz.html">quizz</a></li>
-                                <li><a href="pages/jeux/memory.html">memory</a></li>
+                            <ul class="sousmenu">
+                                <li><a href="pages/jeux/quizz.html"  id="colormenu">Quizz</a></li>
+                                <li><a href="pages/jeux/memory.html"  id="colormenu">Memory</a></li>
                             </ul>
                         </nav></li>
+                    <li><input type = "search" id = "site_search" name = "question"/></li>
                 </ul>
-                <div>
-                    <input type = "search" id = "site_search" name = "question"/>
-                </div>
             </nav>
         </header>
         <section>
@@ -34,9 +33,9 @@
         <figure><img src="image/cartedwork.png" height="565" alt="Image d'une carte jaune, de haut en bas, un texte dans un rectangle indiquant &quot; Sécurité et Confidentialité &quot; à côté du nombre cent-dix dans un rond, un dessin représentant une femme âgée aux cheveux bouclés portant des lunettes rondes, le nom &quot;Cynthia Dwork&quot; en dessous et sur la basse partie de l'image six noms : &quot;Jules César, Diffie Hellman, Shafi Goldwasser, Ai-Kindi, R.S.A et Cynthia Dwork &quot;"/> 
         <figcaption>Carte piochée</figcaption>
         </figure>
-        <article><p>Cette application web est destinée à la réalisation du projet dans le cadre de l’UE MI0301T – Structure de données et récursivité / Client Web de la licence <abbr title="Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales">MIASHS</abbr> se déroulant à l’université Toulouse Jean Jaurès de l’étudiante Buisson Nell.</p>
+        <article><p>Cette application web est destinée à la réalisation du projet dans le cadre de l’UE MI0301T – Structure de données et récursivité / Client Web de la licence <abbr title="Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales">MIASHS</abbr> se déroulant à l’université Toulouse Jean Jaurès de l’étudiante Buisson Pensée.</p>
         <p>Suite au tirage au sort, elle permet de présenter l’informaticienne Cynthia Dwork, connu pour ses travaux dans la sécurité et la confidentialité. </p></article>
-        <nav><p>Cette application présente sa <a href = "pages/biographie">biographie</a>, son <a href = "pages/oeuvre">œuvre</a> et contient deux jeux pour tester les connaissances apprises sur sa personne : un <a href="pages/quizz.html">quizz</a> et un <a href="pages/memory.html" >memory</a>. </p>
+        <nav><p>Cette application présente sa <a href = "pages/biographie.html">biographie</a>, son <a href = "pages/oeuvre">œuvre</a> et contient deux jeux pour tester les connaissances apprises sur sa personne : un <a href="pages/quizz.html">quizz</a> et un <a href="pages/memory.html" >memory</a>. </p>
         </nav></section>
     </body>
 

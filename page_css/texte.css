@@ -1,0 +1,123 @@
+/* Définission des polices utilisées qui ne sont pas automatiquement disponible : */
+@font-face {
+        font-family: "Candara";
+        src: url("polices/Candarab.ttf") format("truetype");
+    }
+
+@font-face {
+    font-family: "Devroye";
+    src: url("polices/DEVROYE.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fatboy";
+    src: url("polices/fbsbltc.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Corbel Light";
+    src: url("polices/corbell.ttf") format("truetype");
+}
+
+/*
+############# Définition :
+####### Bannière et menus : 
+*/
+
+header {
+    background-color: rgb(218,184,219);
+    width : 100%;
+    margin : 0;
+    padding : 10px;
+    border-bottom: rgb(167,135,174) solid 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Corbel Light";
+    color: rgb(166,120,120);
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-bottom: 0px;
+}
+
+h1 span {
+    font-family: "Fatboy";
+    color: rgb(116,60,25);
+    padding-left: 10%;
+}
+
+
+
+#colormenu {
+    color: rgb(167,135,174);
+}
+
+
+
+.logo {
+    width : 130px;
+    height : 130px;
+    float:left;
+    padding : 0px;
+}
+
+.navigation {
+    font-family: "Candara";
+    font-size: 25px;
+    margin: 0px; 
+    padding-left: 15%;
+    padding-top: 5px;
+    color: rgb(167,135,174);
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border-top : rgb(167,135,174) solid 3px;
+
+}
+
+.casenav {
+    width: 18%;
+    padding-left : 5px;
+    position : relative ;
+}
+
+.sousmenu {
+    display: none;
+    background-color: rgb(218,184,219);
+    padding-left: 10px;
+    padding-bottom : 5px;
+    width: 200px;
+}
+
+nav > ul li:hover .sousmenu {
+    display : block;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+/*
+######### Aspect général de la page, hors bannière et menu :
+*/
+
+body {
+    background-color: rgb(198, 155, 146);
+    margin : 0;
+    padding : 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
