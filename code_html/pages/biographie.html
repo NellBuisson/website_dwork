@@ -5,29 +5,27 @@
         <title> Dans la vie de Cynthia Dwork </title>
         <link rel="icon" href="../image/logo.ico" />
         <meta charset = "utf-8"/>
-        <link rel="stylesheet" type="text/css" href= "../../page_css/texte.css" media="all" />
+        <link rel="stylesheet" type="text/css" href= "../../page_css/apparence_generale.css" media="all" />
     </head>
 
     <body>
         <header>
-            <a href = "../index.html"><img src="../image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
-            <h1>Dans la vie de Cynthia Dwork</h1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Page d'Accueil</a></li>
-                    <li><a href="biographie.html">La vie de Cynthia Dwork</a></li>
-                    <li><a href="oeuvre.html">L'oeuvre de Cynthia Dwork</a></li>
+            <a href = "index.html"><img class="logo" src="../image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
+            <h1>Dans la vie de<span>Cynthia Dwork</span></h1>
+            <nav class="menu">
+                <ul class="navigation">
+                    <li><a href="../index.html" id="colormenu">Page d'Accueil</a></li>
+                    <li><a href="biographie.html" id="colormenu">La vie de Cynthia Dwork</a></li>
+                    <li><a href="oeuvre.html" id="colormenu">L'oeuvre de Cynthia Dwork</a></li>
                     <li>Jeux
                         <nav>
-                            <ul>
-                                <li><a href="jeux/quizz.html">Quizz</a></li>
-                                <li><a href="jeux/memory.html">Memory</a></li>
+                            <ul class="sousmenu">
+                                <li><a href="jeux/quizz.html" id="colormenu">Quizz</a></li>
+                                <li><a href="jeux/memory.html" id="colormenu">Memory</a></li>
                             </ul>
                         </nav></li>
+                    <li><input type = "search" id = "site_search" name = "question"/></li>
                 </ul>
-                <div>
-                    <input type = "search" id = "site_search" name = "question"/>
-                </div>
             </nav>
         </header>
         <main>
