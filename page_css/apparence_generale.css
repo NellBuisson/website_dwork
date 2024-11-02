@@ -100,7 +100,7 @@ h1 span {
     width: 200px;
 }
 
-nav > ul li:hover .sousmenu {
+nav ul li:hover .sousmenu {
     display : block;
 }
 
@@ -125,18 +125,14 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 a:visited {
     color: black;
 }
 
-
-
-
-/*
-########## Aspect de la page :
-*/
 
 main {
     padding-left : 17%;
