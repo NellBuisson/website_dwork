@@ -1,3 +1,9 @@
+/* Définission des polices utilisées qui ne sont pas automatiquement disponible : */
+@font-face {
+    font-family: "Bernard";
+    src: url("polices/BERNHC.TTF") format("truetype");
+}
+
 /*
 #### Presentation particulière de la page biographie :
 */
@@ -9,12 +15,26 @@ figure {
     padding-bottom: 10px;
     margin-left: 37%;
     margin-right: 37%;
+}
 
 figcaption {
     text-align: center;
-    font-family: ;
 }
 
 img {
     width: 300px;
+}
+
+h3 {
+    background-image: url(images/bio_titre3.png);
+    background-repeat: no-repeat;
+    font-family: "Bernard";
+    font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+}
+
+section {
+    background-color: rgb(254,198,181);
 }
