@@ -63,9 +63,9 @@ h1 span {
 
 
 
-#colormenu {
+nav > ul > li > a {
     color: rgb(167,135,174);
-}
+} 
 
 
 
@@ -108,9 +108,6 @@ nav ul li:hover .sousmenu {
     display : block;
 }
 
-nav a:hover{
-    color: black;
-}
 
 
 /*
@@ -131,10 +128,6 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-
-a:visited {
-    color: black;
 }
 
 

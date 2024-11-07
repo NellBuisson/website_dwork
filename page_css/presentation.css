@@ -9,7 +9,7 @@ figure {
     float : left;
 }
 
-img {
+body img {
     width : 90%;
     height: 90%;
 }
