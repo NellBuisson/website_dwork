@@ -80,11 +80,11 @@ nav > ul > li > a {
     font-family: "Candara";
     font-size: 25px;
     margin: 0px; 
-    padding-left: 15%;
+    padding-left: 13%;
     padding-top: 5px;
     color: rgb(167,135,174);
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 30px;
     border-top : rgb(167,135,174) solid 3px;
 
@@ -94,7 +94,17 @@ nav > ul > li > a {
     width: 18%;
     padding-left : 5px;
     position : relative ;
+    display: inline-block;
+    text-align: center;
 }
+
+.navigation li input {
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    right: 30px;
+}
+
 
 .sousmenu {
     display: none;
@@ -121,6 +131,7 @@ body {
     background-size: 100%;
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     
     
 }

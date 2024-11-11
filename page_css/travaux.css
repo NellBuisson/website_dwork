@@ -1,0 +1,70 @@
+/* Définission des polices utilisées qui ne sont pas automatiquement disponible : */
+
+@font-face {
+    font-family: "Devroye";
+    src: url("polices/DEVROYE.ttf") format("truetype");
+}
+
+/*
+#### Presentation particulière de la page oeuvre :
+*/
+
+section {
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+}
+
+h3 {
+    font-family: "Devroye";
+    font-size: 20px;
+}
+
+article {
+    display: none;
+    width: 40%;
+    max-height: 300px;
+    overflow: scroll;
+    scrollbar-width: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
+#bulle1::after {
+	content:"";
+	position:absolute;
+	bottom:285px; 
+	left:400px; 
+	border-left:10px solid transparent; /* largeur initiale de la partie gauche de la flèche (ici 0) */
+	border-right:20px solid transparent; /* largeur initiale de la partie droite de la flèche */
+	border-bottom:20px solid white; /* longueur de la flèche */
+}
+
+#bulle1 {
+    left : 100px;
+}
+
+#bulle1:target {
+    display: block ;
+}
+
+
+#bulle2:target {
+    display: block;
+}
+
+
+#bulle3:target {
+    display: block;
+}
+
+
+#bulle4:target {
+    display: block;
+}
