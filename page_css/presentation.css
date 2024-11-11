@@ -4,8 +4,8 @@
 
 
 figure {
-    padding-left : 10%;
-    padding-top:  20px;
+    margin-left : 10%;
+    margin-top:  20px;
     float : left;
 }
 
@@ -19,11 +19,16 @@ figcaption {
     position: relative;
     bottom: 250px;
     right:10px;
+    display: none;
     
 }
 
-img:hover {
-    
+figure:hover figcaption {
+    display: block;
+}
+
+figure:hover img {
+    opacity: 50%;
 }
 
 
@@ -36,6 +41,5 @@ img:hover {
     margin-top: 5%;
     padding : 30px;
     padding-right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
