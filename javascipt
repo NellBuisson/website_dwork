@@ -61,3 +61,31 @@ const lesQuestions = [
         },
 
 ]
+
+
+
+function AfficherQuestion(uneQ, nbr) {
+    let codeHTML;
+    codeHTML = "<article id=\""+uneQ.id+"\">";
+    codeHTML += "<h2> Question " + nbr + "</h2>";
+    codeHTML += "<h3>Question : " + uneQ.question + "</h3>";
+    codeHTML += "<h3>" + uneQ.question + "</h3>";
+    codeHTML += "<h3>Qui l'a dit ?</h3> ";
+    codeHTML += "<ul>"
+    for (const cel of maQ.possibilités) 
+        codeHTML +="<li>"+cel+"</li>"
+    codeHTML += "</ul>";
+    codeHTML += "</article>";
+    return (codeHTML);
+
+}
+
+function integrerLesQuestions(lesQ) {
+    let codeHTML = "";
+    let numero = 0;
+    for (const uneQ of lesQ)
+        numero += 1;
+        codeHTML += AfficherQuestion(uneQ, numero);
+    return(codeHTML)
+
+}
