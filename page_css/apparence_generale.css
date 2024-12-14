@@ -90,7 +90,7 @@ nav > ul > li > a {
 
 }
 
-.navigation li {
+.navigation > li {
     width: 18%;
     padding-left : 5px;
     position : relative ;
@@ -106,7 +106,7 @@ nav > ul > li > a {
 }
 
 
-.sousmenu {
+#sousmenu {
     display: none;
     background-color: rgb(218,184,219);
     padding-left: 10px;
@@ -114,7 +114,7 @@ nav > ul > li > a {
     width: 200px;
 }
 
-nav ul li:hover .sousmenu {
+nav ul li:hover #sousmenu {
     display : block;
 }
 
@@ -155,7 +155,7 @@ h2 {
     background-image: url(images/fond_titre2.png);
     background-position: center;
     background-size: 925px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 figcaption {
