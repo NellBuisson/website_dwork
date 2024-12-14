@@ -7,11 +7,13 @@
         <meta charset = "utf-8"/>
         <link rel="stylesheet" type="text/css" href= "../../page_css/apparence_generale.css" media="all" />
         <link rel="stylesheet" type="text/css" href= "../../page_css/travaux.css" media="all" />
+        <script type="text/javascript" src="../../javasc/javascript_general.js" defer></script>
+        <script type="text/javascript" src="../../javasc/javascript_oeuvre.js" defer></script>
     </head>
 
     <body>
         <header>
-            <a href = "index.html"><img class="logo" src="../image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
+            <a href = "../index.html"><img class="logo" src="../image/logosite.png" alt="Un C et un W accompagné d'une clé : logo de l'application web."/> </a>
             <h1>Dans la vie de<span>Cynthia Dwork</span></h1>
             <nav class="menu">
                 <ul class="navigation">
@@ -31,45 +33,46 @@
             </nav>
         </header>
         <main>
+
             <h2>Les oeuvres de Cynthia Dwork</h2>
         
-            <section><a href="#bulle1"><img src="../image/oeuvres/livre1.png" alt="Livre fermé avec pour titre &quot;Proof of Work&quot;"/></a> 
-            <!--Recherche nécessaire pour le remplacement du livre fermé par le livre ouvert-->
-                <article id = "bulle1">
-                <!--Lors de la mise en place du CSS, ajout d'une classe "scroller" qui mettra en place une barre de défilement-->
-                    <h3>« Proof of work » (test de travail) </h3>
-                    <p>Il s’agit d’un concept décrit par Cynthia Dwork et <a target=_blank href="https://simons.berkeley.edu/people/moni-naor">Moni Naor</a> en 1992, mais il n’en obtiendra ce nom que plus tard. Il s’agit d’une méthode pour protéger les utilisateurs des spams. </p>
-                    <p>En voici un exemple : Pour envoyer un mail, l’ordinateur envoyeur doit résoudre une énigme ou un puzzle posé par l’ordinateur receveur. L’ordinateur envoyeur doit ainsi prendre du temps et de l’énergie à le résoudre, là où l’ordinateur receveur, qui détient les clefs pour le comprendre peut vérifier instantanément la réponse. </p>
-                    <p>Cette méthode sous-entend que nul ne ferait l’effort de perdre du temps à résoudre une énigme si le message à transmettre était futile. Leur travail, qui n’avait jusque là pas attirer l’attention, fut mis en lumière en 1997 grâce à <a target=_blank href="https://academy.bit2me.com/fr/qui-est-Adam-de-retour/">Adam Back</a> qui reprit leur travail. </p>
-                    <p>En 2005, Cynthia Dwork sort un nouvel article en collaboration avec Moni Naor et <a href="https://ntt-research.com/cis-people/wee-profile/" target=_blank>Hoeteck Wee</a> reprenant cette méthode et l’appliquant à une plus grande échelle, notamment pour contrôler les attaques en créant un déni de service (<dfn>Une impossibilité d’utiliser l’appareil. Cela peut être fait par plusieurs méthodes notamment en provoquant une surcharge de travail de l’appareil. </dfn>). </p>
-                    <a href="https://www.microsoft.com/en-us/research/publication/pebbling-and-proofs-of-work/" target=_blank>Publication sur Proof of Work</a>
-                </article>
-            </section>
-            <section><a href="#bulle2"><img src="../image/oeuvres/livre2.png" alt="Livre fermé avec pour titre &quot;Cryptographie non-Malléable&quot;"/> </a>
-            <!--Recherche nécessaire pour le remplacement du livre fermé par le livre ouvert-->
-            <article id = "bulle2"><h3>« Cryptographie non-malléable »</h3>
-            <p>Certains protocoles cryptographiques peuvent posséder la caractéristique « malléable ». Il s’agit d’une capacité à modifier le message originel à l’aide d’une fonction, sans pour autant avoir accès au contenu dudit message originel. Cela peut être utile dans certains cas. </p>
-            <p>La cryptographie non malléable empêche cette caractéristique d’exister et permet une confidentialité plus élevé lors d’envois d’informations chiffrés. </p>
-            <a target=_blank href="https://www.cs.huji.ac.il/~dolev/pubs/nmc.pdf">Publication sur la Cryptographie non-Malléable</a>
-            </article>
-            </section>
-            <section><a href="#bulle3"><img src="../image/oeuvres/livre3.png" alt="Livre fermé avec pour titre &quot;Immuniser les schémas de chiffrement contre les erreurs de déchiffrement&quot;"/> </a>
-            <!--Recherche nécessaire pour le remplacement du livre fermé par le livre ouvert-->
-            <article id = "bulle3"><h3>« Immunisé les schémas de chiffrement contre les erreurs de déchiffrements »</h3>
+            <section>
+            <a href="#bulle1"><img id="titre1" src="../image/oeuvres/livre1.png" alt="Livre fermé avec pour titre &quot;Proof of Work&quot;"/></a> 
+            
+            <a href="#bulle2"><img id="titre2" src="../image/oeuvres/livre2.png" alt="Livre fermé avec pour titre &quot;Cryptographie non-Malléable&quot;"/> </a>
+            
+            <a href="#bulle3"><img id="titre3" src="../image/oeuvres/livre3.png" alt="Livre fermé avec pour titre &quot;Immuniser les schémas de chiffrement contre les erreurs de déchiffrement&quot;"/> </a>
+            
+            <a href="#bulle4"><img id="titre4" src="../image/oeuvres/livre4.png" alt="Livre fermé avec pour titre &quot;Equité au travers de la connaissance&quot;"/></a> 
+            
+            
+        </section>
+        <section>
+        <article id = "bulle1">
+                <h3>« Proof of work » (test de travail) </h3>
+                <p>Il s’agit d’un concept décrit par Cynthia Dwork et <a target=_blank href="https://simons.berkeley.edu/people/moni-naor">Moni Naor</a> en 1992, mais il n’en obtiendra ce nom que plus tard. Il s’agit d’une méthode pour protéger les utilisateurs des spams. </p>
+                <p>En voici un exemple : Pour envoyer un mail, l’ordinateur envoyeur doit résoudre une énigme ou un puzzle posé par l’ordinateur receveur. L’ordinateur envoyeur doit ainsi prendre du temps et de l’énergie à le résoudre, là où l’ordinateur receveur, qui détient les clefs pour le comprendre peut vérifier instantanément la réponse. </p>
+                <p>Cette méthode sous-entend que nul ne ferait l’effort de perdre du temps à résoudre une énigme si le message à transmettre était futile. Leur travail, qui n’avait jusque là pas attirer l’attention, fut mis en lumière en 1997 grâce à <a target=_blank href="https://academy.bit2me.com/fr/qui-est-Adam-de-retour/">Adam Back</a> qui reprit leur travail. </p>
+                <p>En 2005, Cynthia Dwork sort un nouvel article en collaboration avec Moni Naor et <a href="https://ntt-research.com/cis-people/wee-profile/" target=_blank>Hoeteck Wee</a> reprenant cette méthode et l’appliquant à une plus grande échelle, notamment pour contrôler les attaques en créant un déni de service (<dfn>Une impossibilité d’utiliser l’appareil. Cela peut être fait par plusieurs méthodes notamment en provoquant une surcharge de travail de l’appareil. </dfn>). </p>
+                <a href="https://www.microsoft.com/en-us/research/publication/pebbling-and-proofs-of-work/" target=_blank>Publication sur Proof of Work</a>
+        </article>
+        <article id = "bulle2"><h3>« Cryptographie non-malléable »</h3>
+                <p>Certains protocoles cryptographiques peuvent posséder la caractéristique « malléable ». Il s’agit d’une capacité à modifier le message originel à l’aide d’une fonction, sans pour autant avoir accès au contenu dudit message originel. Cela peut être utile dans certains cas. </p>
+                <p>La cryptographie non malléable empêche cette caractéristique d’exister et permet une confidentialité plus élevé lors d’envois d’informations chiffrés. </p>
+                <a target=_blank href="https://www.cs.huji.ac.il/~dolev/pubs/nmc.pdf">Publication sur la Cryptographie non-Malléable</a>
+        </article>
+        <article id = "bulle3"><h3>« Immunisé les schémas de chiffrement contre les erreurs de déchiffrements »</h3>
                 <p>Cynthia Dwork, ainsi que Moni Naor et <a target=_blank href="https://omereingold.wordpress.com/">Omer Reingold</a>, ont travaillé sur différentes méthodes permettant de passer d’un schéma de chiffrement qui pourrait faire des erreurs de déchiffrement à un schéma immunisé contre elles. </p>
                 <p>Ajoutée à sa nécessité, l’immunité aux erreurs de déchiffrement permet une défense face à certaines attaques comme celles de Proos ou la combine de <abbr>NTRU</abbr>. </p>
                 <a target=_blank href="https://link.springer.com/chapter/10.1007/978-3-540-24676-3_21">Publication sur l'immunisation des schémas de chiffrement contre les erreurs de déchiffrement.</a>
-            </article>
-            </section>
-            <section><a href="#bulle4"><img src="../image/oeuvres/livre4.png" alt="Livre fermé avec pour titre &quot;Equité au travers de la connaissance&quot;"/></a> 
-            <!--Recherche nécessaire pour le remplacement du livre fermé par le livre ouvert-->
-            <article id = "bulle4"><h3>« Équité au travers de la connaissance » </h3>
-            <p>En collaboration avec <a target=_blank href="https://mrtz.org/">Moritz A W Hardt</a>, <a target=_blank href="https://datascience.columbia.edu/people/toniann-pitassi/">Toomiann Pitassi</a>, Omer Reingold et <a target=_blank href="https://dl.acm.org/profile/81100597418">Richard Stanley Zemel</a>, Cynthia Dwork a travaillé sur l’équité dans la classification et sur des algorithmes servant d’outils à celle-ci. Ils ont également proposé (dans l’<a href="#lien_article">article</a> ci-joint) une approche de l’ « action positive équitable » qui permettrait la parité statistique (celle-ci représente le fait que les données démographiques d’une population d’origine sont les mêmes après la classification) afin de traiter tout individu similaire de manière identique sans prise en compte de leur appartenance à une minorité. </p>
-            <blockquote> Je pense qu’il y a une chance que les outils d’analyses de données peuvent aider à mettre en lumière comment les personnes pensent et où se trouvent des iniquités et des préjugés.</blockquote>
-            <cite>Cynthia Dwork dans <a target=_blank href="https://www.youtube.com/watch?v=SDceL-_yKsY">Fireside Chat</a> with Cynthia Dwork sur la chaîne YouTube Microsoft Research</cite>
-            <p>Cynthia Dwork précise que pour que les algorithmes fonctionnent il faut définir à l’algorithme quels points contribuent à la similarité des personnes et sur quels points ils sont à classer. Cela nécessite de définir qu’est-ce que l’équité, sur quel point entre en jeu le concept. La chercheuse précise qu’à ce stade, l’informatique entre en contact avec des questions plus politiques et que c’est pour cette raison qu’il est nécessaire de se former à l’éthique, et qu’elle ne pense pas qu’une seule définition de l’équité finira par ressortir. </p>
-            <a target=_blank href="https://dl.acm.org/doi/10.1145/2090236.2090255" id="lien_article">Publication sur l'équité algorithmique</a>
-            </article>
+        </article>
+        <article id = "bulle4"><h3>« Équité au travers de la connaissance » </h3>
+                <p>En collaboration avec <a target=_blank href="https://mrtz.org/">Moritz A W Hardt</a>, <a target=_blank href="https://datascience.columbia.edu/people/toniann-pitassi/">Toomiann Pitassi</a>, Omer Reingold et <a target=_blank href="https://dl.acm.org/profile/81100597418">Richard Stanley Zemel</a>, Cynthia Dwork a travaillé sur l’équité dans la classification et sur des algorithmes servant d’outils à celle-ci. Ils ont également proposé (dans l’<a href="#lien_article">article</a> ci-joint) une approche de l’ « action positive équitable » qui permettrait la parité statistique (celle-ci représente le fait que les données démographiques d’une population d’origine sont les mêmes après la classification) afin de traiter tout individu similaire de manière identique sans prise en compte de leur appartenance à une minorité. </p>
+                <blockquote> Je pense qu’il y a une chance que les outils d’analyses de données peuvent aider à mettre en lumière comment les personnes pensent et où se trouvent des iniquités et des préjugés.</blockquote>
+                <cite>Cynthia Dwork dans <a target=_blank href="https://www.youtube.com/watch?v=SDceL-_yKsY">Fireside Chat</a> with Cynthia Dwork sur la chaîne YouTube Microsoft Research</cite>
+                <p>Cynthia Dwork précise que pour que les algorithmes fonctionnent il faut définir à l’algorithme quels points contribuent à la similarité des personnes et sur quels points ils sont à classer. Cela nécessite de définir qu’est-ce que l’équité, sur quel point entre en jeu le concept. La chercheuse précise qu’à ce stade, l’informatique entre en contact avec des questions plus politiques et que c’est pour cette raison qu’il est nécessaire de se former à l’éthique, et qu’elle ne pense pas qu’une seule définition de l’équité finira par ressortir. </p>
+                <a target=_blank href="https://dl.acm.org/doi/10.1145/2090236.2090255" id="lien_article">Publication sur l'équité algorithmique</a>
+        </article>
         </section>
         </main>
         

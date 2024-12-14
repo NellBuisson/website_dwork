@@ -14,13 +14,14 @@ section {
 }
 
 img {
-    width: 250px;
+    height: 300px;
+
 }
 
 h3 {
     font-family: "Devroye";
     font-size: 20px;
-}
+} 
 
 article {
     display: none;
@@ -34,10 +35,7 @@ article {
     padding-right: 30px;
     padding-left: 20px;
     padding-bottom: 35px;
-}
-
-#bulle1 {
-    left : 100px;
+    margin-left: 25%;
 }
 
 #bulle1:target {
