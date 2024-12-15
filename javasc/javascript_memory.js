@@ -85,9 +85,7 @@ initialisation();
 
 
 for(let i=0; i < cartes.length;i++) {
-    //ajout de l'élément numéro aux objets présents dans cartes. 
-    cartes[i].numero=i;
     //document.querySelector("table").querySelector(cartes[i]).addEventListener('click', function(){
     cartes[i].onclick=function(){
-        jeu(this.numero);
+        jeu(i);
 }};
