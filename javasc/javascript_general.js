@@ -7,10 +7,10 @@ function rechercher() {
 
     //Soit l'élément est dans la page (avec utilisation méthode index of qui renvoie -1 si elle est absente) soit il n'y est pas. 
     if (doc.indexOf(element) != -1){
-        //faire le code pour trouver l'élément et se rendre à l'élément :D
+        //faire le code pour se rendre à l'élément :D
 
     } else {
-    
-        alert('" ' + element +' "' + "n'est pas présent dans la page.")
+        //on prévient si l'élément n'a pas été 
+        alert('" ' + element +' "' + "n'est pas présent dans la page.");
     }
 }
