@@ -98,14 +98,6 @@ nav > ul > li > a {
     text-align: center;
 }
 
-.navigation li input {
-    display: inline-block;
-    height: 25px;
-    width: 200px;
-    right: 30px;
-}
-
-
 #sousmenu {
     display: none;
     background-color: rgb(218,184,219);
