@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Devroye";
+    src: url("polices/DEVROYE.ttf") format("truetype");
+}
+
+article {
+    background-color: rgb(255,229,230);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-family: "Devroye";
+}
+
+article ul {
+    margin-left: 30px;
+}
+article li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+label {
+    padding-left: 5px;
+}
+
+footer {
+    position: relative;
+    left : 700px;
+    font-family: "Devroye";
+    font-size: 25px;
+}
+
+article li input {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox:checked {
+    background-color: black;
+}
