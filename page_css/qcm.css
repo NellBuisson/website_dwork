@@ -53,3 +53,12 @@ article li input {
 .checkbox:checked {
     background-color: black;
 }
+
+button {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 45%;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+}
